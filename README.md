@@ -13,5 +13,5 @@ Installation scripts for Arch Linux
     4. Install needed Pacman Hooks
 4. Reboot
 5. Setup Tier 2 components
-    1. Set up Pacman Mirrors
+    1. Set up Pacman Mirror Ranking
         * Important: this should be done after installing Pacman Hooks, because this may bring in updates.
