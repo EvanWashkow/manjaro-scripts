@@ -3,7 +3,8 @@ Installation scripts for Arch Linux
 
 ## General execution order
 1. After initial install, `arch-chroot` into the machine
-    1. Install Desktop of choice
+    1. Install Base
+    2. Install Desktop of choice
 2. Reboot
 3. Setup Tier 1 components
     1. Change Keymap
