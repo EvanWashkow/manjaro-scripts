@@ -7,3 +7,5 @@ then
 fi
 
 pamac build --no-confirm systemd-boot-pacman-hook
+
+echo "Please reboot your computer"
