@@ -17,6 +17,7 @@ sudo pacman -S --noconfirm \
     gnome-shell-extensions \
     gnome-system-monitor \
     gnome-terminal \
+    gnome-tweaks \
     gnome-weather \
     gvfs \
     nautilus \
