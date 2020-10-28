@@ -38,4 +38,6 @@ sudo pacman -S --noconfirm --asdeps \
     gvfs-smb \
     unrar
 
+sudo pacman -D --asdeps ntfs-3g
+
 sudo systemctl enable gdm
