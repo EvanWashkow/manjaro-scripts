@@ -4,7 +4,7 @@
 sudo pacman -S --noconfirm cronie reflector
 sudo systemctl enable cronie
 
-# Get shared variables
+# Include shared variables
 source $(dirname $0)/Variables.sh
 
 # Build daily cron to refresh mirrors
