@@ -3,7 +3,7 @@ Installation scripts for Arch Linux
 
 ## General execution order
 1. After initial install, `arch-chroot` into the machine
-    1. Run Distrobution-specific scripts (`Distribution`)
+    1. Run Distribution-specific scripts (`Distribution`)
         * This will provide a baseline for the later scripts
     2. Install Base (`Base/InstallBase.sh`)
     3. Install Desktop of choice
