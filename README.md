@@ -12,7 +12,8 @@ Installation scripts for Arch Linux
     1. Change Keymap (`Keymap`)
     2. Connect to internet
     3. Install Pamac (`Pamac/InstallPamac.sh`)
-    4. Install needed Pacman Hooks (`Pacman/Hook`)
+    4. Enable AUR in Pamac > Preferences > AUR
+    5. Install needed Pacman Hooks (`Pacman/Hook`)
 4. Reboot
 5. Setup Tier 2 components
     1. Set up Pacman Mirror Ranking (`Pacman/MirrorRanking`)
