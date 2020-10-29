@@ -7,10 +7,10 @@ Installation scripts for Arch Linux
     2. Install Desktop of choice
 2. Reboot
 3. Setup Tier 1 components
-    1. Change Keymap (`Keymaps`)
+    1. Change Keymap (`Keymap`)
     2. Connect to internet
     3. Install Pamac (`Pamac/InstallPamac.sh`)
-    4. Install needed Pacman Hooks (`Pacman/Hooks`)
+    4. Install needed Pacman Hooks (`Pacman/Hook`)
 4. Reboot
 5. Setup Tier 2 components
     1. Set up Pacman Mirror Ranking (`Pacman/MirrorRanking`)
