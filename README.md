@@ -9,12 +9,12 @@ Installation scripts for Arch Linux
     3. Install Utilities (`Utilities/InstallUtilities.sh`)
     4. Install Desktop of choice (`DesktopEnvironment`)
 2. Reboot
-3. Setup Tier 1 components
+3. Setup System (Part 1)
     1. Change Keymap (`System/Keymap`)
     2. Connect to internet
     3. Install needed Pacman Hooks (`System/Pacman/Hook`)
 4. Reboot
-5. Setup Tier 2 components
+5. Setup System (Part 2)
     1. Set up Pacman Mirror Ranking (`System/Pacman/MirrorRanking`)
     2. Rank Mirrors (`System/Pacman/MirrorRanking/RankMirrors.sh`)
     3. Optionally, update via `sudo pacman -Syu`
