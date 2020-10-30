@@ -29,5 +29,5 @@ Installation scripts for Arch Linux
             1. Grub: https://wiki.archlinux.org/index.php/GRUB#Generated_grub.cfg
     2. Modify `/etc/mkinitcpio.conf`
         1. Replace "udev usr resume" with "systemd" in the HOOKS field ([source](https://wiki.archlinux.org/index.php/mkinitcpio#Common_hooks))
-        2. Run `System/Mkinitcpio/UpdateMkinitcpio.sh`
+        2. Run `sudo mkinitcpio -P`
 7. Reboot
