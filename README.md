@@ -12,9 +12,7 @@ Installation scripts for Arch Linux
 3. Setup Tier 1 components
     1. Change Keymap (`System/Keymap`)
     2. Connect to internet
-    3. Install Pamac (`System/Pamac/InstallPamac.sh`)
-    4. Enable AUR in Pamac > Preferences > AUR
-    5. Install needed Pacman Hooks (`System/Pacman/Hook`)
+    3. Install needed Pacman Hooks (`System/Pacman/Hook`)
 4. Reboot
 5. Setup Tier 2 components
     1. Set up Pacman Mirror Ranking (`System/Pacman/MirrorRanking`)
