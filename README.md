@@ -6,7 +6,7 @@ Installation scripts for Arch Linux
     1. Run Distribution-specific scripts (`Distribution`)
         * This will provide a baseline for the later scripts
     2. Install Base (`Base/InstallBase.sh`)
-    3. Install Desktop of choice
+    3. Install Desktop of choice (`DesktopEnvironment`)
 2. Reboot
 3. Setup Tier 1 components
     1. Change Keymap (`Keymap`)
