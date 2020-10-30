@@ -19,3 +19,11 @@ Installation scripts for Arch Linux
     1. Set up Pacman Mirror Ranking (`Pacman/MirrorRanking`)
     2. Rank Mirrors (`Pacman/MirrorRanking`)
         * Important: these should be done after installing Pacman Hooks, because they may introduce updates.
+6. Set up silent boot
+    1. Modify bootloader
+        1. Add these boot parameters: https://wiki.archlinux.org/index.php/silent_boot#Kernel_parameters
+        2. Change timeout to zero
+        3. Rebuild bootloader
+        4. Bootloader info:
+            1. Grub: https://wiki.archlinux.org/index.php/GRUB#Generated_grub.cfg
+7. Reboot
