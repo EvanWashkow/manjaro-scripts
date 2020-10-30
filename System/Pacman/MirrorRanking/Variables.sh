@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cronFilePath="/etc/cron.daily/mirrorlist"
+cronFilePath="/etc/cron.daily/RankMirrors"
