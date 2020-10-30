@@ -20,13 +20,13 @@ Installation scripts for Arch Linux
     3. Optionally, update via `sudo pacman -Syu`
     4. Run `sudo etc-update`, resolving conflicts
 6. Set up silent boot
-    1. Modify bootloader
+    1. Modify `/etc/mkinitcpio.conf`
+        1. Replace "udev usr resume" with "systemd" in the HOOKS field ([source](https://wiki.archlinux.org/index.php/mkinitcpio#Common_hooks))
+        2. Run `sudo mkinitcpio -P`
+    2. Modify bootloader
         1. Add these boot parameters: https://wiki.archlinux.org/index.php/silent_boot#Kernel_parameters
         2. Change timeout to zero
         3. Rebuild bootloader
         4. Bootloader info:
             1. Grub: https://wiki.archlinux.org/index.php/GRUB#Generated_grub.cfg
-    2. Modify `/etc/mkinitcpio.conf`
-        1. Replace "udev usr resume" with "systemd" in the HOOKS field ([source](https://wiki.archlinux.org/index.php/mkinitcpio#Common_hooks))
-        2. Run `sudo mkinitcpio -P`
 7. Reboot
