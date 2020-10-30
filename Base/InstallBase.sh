@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo pacman -S --noconfirm base nano
+sudo pacman -S --noconfirm base
 
 
 #
