@@ -5,20 +5,20 @@ Installation scripts for Arch Linux
 1. After initial install, `arch-chroot` into the machine
     1. Run Distribution-specific scripts (`Distribution`)
         * This will provide a baseline for the later scripts
-    2. Install Base (`Base/InstallBase.sh`)
-    3. Install Utilities (`Utilities/InstallUtilities.sh`)
+    2. Install Base (`System/Base/InstallBase.sh`)
+    3. Install Utilities (`System/Utilities/InstallUtilities.sh`)
     4. Install Desktop of choice (`DesktopEnvironment`)
 2. Reboot
 3. Setup Tier 1 components
-    1. Change Keymap (`Keymap`)
+    1. Change Keymap (`System/Keymap`)
     2. Connect to internet
-    3. Install Pamac (`Pamac/InstallPamac.sh`)
+    3. Install Pamac (`System/Pamac/InstallPamac.sh`)
     4. Enable AUR in Pamac > Preferences > AUR
-    5. Install needed Pacman Hooks (`Pacman/Hook`)
+    5. Install needed Pacman Hooks (`System/Pacman/Hook`)
 4. Reboot
 5. Setup Tier 2 components
-    1. Set up Pacman Mirror Ranking (`Pacman/MirrorRanking`)
-    2. Rank Mirrors (`Pacman/MirrorRanking`)
+    1. Set up Pacman Mirror Ranking (`System/Pacman/MirrorRanking`)
+    2. Rank Mirrors (`System/Pacman/MirrorRanking/RankMirrors.sh`)
         * Important: these should be done after installing Pacman Hooks, because they may introduce updates.
 6. Set up silent boot
     1. Modify bootloader
@@ -29,5 +29,5 @@ Installation scripts for Arch Linux
             1. Grub: https://wiki.archlinux.org/index.php/GRUB#Generated_grub.cfg
     2. Modify `/etc/mkinitcpio.conf`
         1. Replace "udev usr resume" with "systemd" in the HOOKS field ([source](https://wiki.archlinux.org/index.php/mkinitcpio#Common_hooks))
-        2. Run `Mkinitcpio/UpdateMkinitcpio.sh`
+        2. Run `System/Mkinitcpio/UpdateMkinitcpio.sh`
 7. Reboot
