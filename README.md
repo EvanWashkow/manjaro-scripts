@@ -17,7 +17,8 @@ Installation scripts for Arch Linux
 5. Setup Tier 2 components
     1. Set up Pacman Mirror Ranking (`System/Pacman/MirrorRanking`)
     2. Rank Mirrors (`System/Pacman/MirrorRanking/RankMirrors.sh`)
-        * Important: these should be done after installing Pacman Hooks, because they may introduce updates.
+    3. Optionally, update via `sudo pacman -Syu`
+    4. Run `sudo etc-update`, resolving conflicts
 6. Set up silent boot
     1. Modify bootloader
         1. Add these boot parameters: https://wiki.archlinux.org/index.php/silent_boot#Kernel_parameters

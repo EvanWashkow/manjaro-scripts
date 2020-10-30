@@ -11,3 +11,6 @@ cd pamac-aur
 makepkg -sic --noconfirm
 cd ..
 rm -rdf pamac-aur
+
+# Install AUR utilities
+sudo pamac build --no-confirm etc-update
