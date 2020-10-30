@@ -1,4 +1,4 @@
 #!/bin/sh
 
 sudo mkinitcpio -P
-echo "Please reboot your computer"
+echo "Please restart your computer"
