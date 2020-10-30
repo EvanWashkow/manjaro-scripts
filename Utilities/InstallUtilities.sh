@@ -1,10 +1,9 @@
 #!/bin/sh
 
-# Install git and nano
-sudo pacman -S --noconfirm git nano
+# Install common utilities
+sudo pacman -S --noconfirm base-devel git nano
 
 # Install Pamac
-sudo pacman -S --noconfirm base-devel
 cd ~
 git clone https://aur.archlinux.org/pamac-aur.git
 cd pamac-aur
