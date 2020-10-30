@@ -23,7 +23,8 @@ sudo pacman -S --noconfirm \
     gvfs \
     nautilus \
     totem \
-    xdg-user-dirs-gtk
+    xdg-user-dirs-gtk \
+    xdg-utils
 
 sudo pacman -S --noconfirm --asdeps \
     gnome-control-center \
@@ -36,6 +37,7 @@ sudo pacman -S --noconfirm --asdeps \
     gvfs-mtp \
     gvfs-nfs \
     gvfs-smb \
+    ntfs-3g \
     unrar
 
 sudo pacman -D --asdeps ntfs-3g
