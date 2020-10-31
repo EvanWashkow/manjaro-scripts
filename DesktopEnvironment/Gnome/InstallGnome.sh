@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# Install packages from main repos
 sudo pacman -S --noconfirm \
     alsa-utils \
     baobab \
@@ -28,6 +29,7 @@ sudo pacman -S --noconfirm \
     xdg-user-dirs-gtk \
     xdg-utils
 
+# Install optional dependencies from main repos
 sudo pacman -S --noconfirm --asdeps \
     gnome-control-center \
     gst-plugins-ugly \
@@ -41,6 +43,12 @@ sudo pacman -S --noconfirm --asdeps \
     gvfs-smb \
     unrar
 
+# Mark some packages as being dependencies
 sudo pacman -D --asdeps bluez ntfs-3g
 
+# Install packages from the AUR
+pamac build --no-confirm switcheroo-control
+
+# Enable services
 sudo systemctl enable gdm
+sudo systemctl enable switcheroo-control
