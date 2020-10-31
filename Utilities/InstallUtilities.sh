@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install common utilities
-sudo pacman -S --noconfirm
+sudo pacman -S --noconfirm \
     base-devel \
     bluez \
     bluez-utils \
@@ -9,6 +9,10 @@ sudo pacman -S --noconfirm
     git \
     nano \
     ntfs-3g
+
+# Set up Bluetooth
+sudo systemctl enable bluetooth.service
+sudo gpasswd -a $USER lp
 
 # Install Pamac
 cd ~
