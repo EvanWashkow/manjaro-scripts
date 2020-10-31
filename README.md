@@ -19,7 +19,7 @@ Installation scripts for Arch Linux
     2. Rank Mirrors (`System/Pacman/MirrorRanking/RankMirrors.sh`)
     3. Optionally, update via `sudo pacman -Syu`
     4. Run `sudo etc-update`, resolving conflicts
-    5. Install OhMyZSH (`System/ZSH/InstallOhMyZSH.sh`)
+    5. Setup Terminal Shell (`System`)
 6. Set up silent boot
     1. Modify `/etc/mkinitcpio.conf`
         1. Replace "udev usr resume" with "systemd" in the HOOKS field ([source](https://wiki.archlinux.org/index.php/mkinitcpio#Common_hooks))
