@@ -31,3 +31,4 @@ Installation scripts for Arch Linux
         4. Bootloader info:
             1. Grub: https://wiki.archlinux.org/index.php/GRUB#Generated_grub.cfg
 7. Reboot
+8. Install Applications (`Application`)
