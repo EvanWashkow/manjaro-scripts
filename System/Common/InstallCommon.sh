@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Install common utilities
+# Install common packages
 sudo pacman -S --noconfirm \
     base-devel \
     bluez \
