@@ -32,3 +32,4 @@ Installation scripts for Arch Linux
             1. Grub: https://wiki.archlinux.org/index.php/GRUB#Generated_grub.cfg
 7. Reboot
 8. Install Applications (`Application`)
+9. Remove orphaned packages (`System/Pacman/RemoveOrphanedPackages.sh`)
