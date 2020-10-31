@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install common utilities
-sudo pacman -S --noconfirm base-devel git nano
+sudo pacman -S --noconfirm base-devel fwupd git nano
 
 # Install Pamac
 cd ~
