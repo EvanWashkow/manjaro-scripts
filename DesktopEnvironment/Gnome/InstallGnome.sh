@@ -3,6 +3,7 @@
 sudo pacman -S --noconfirm \
     alsa-utils \
     baobab \
+    bluez-utils \
     chrome-gnome-shell \
     eog \
     file-roller \
