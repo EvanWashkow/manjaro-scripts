@@ -34,4 +34,5 @@ Installation scripts for Arch Linux
     1. (`Application`)
     2. Any others
 9. Remove orphaned packages (`System/Pacman/RemoveOrphanedPackages.sh`)
-10. Reboot
+10. Remove uninstalled package cache (Run `sudo pacman -Sc`)
+11. Reboot
