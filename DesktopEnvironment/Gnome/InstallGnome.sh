@@ -16,6 +16,8 @@ sudo pacman -S --noconfirm \
     gnome-keyring \
     gnome-screenshot \
     gnome-shell-extensions \
+    gnome-software \
+    gnome-software-packagekit-plugin \
     gnome-system-monitor \
     gnome-terminal \
     gnome-tweaks \
