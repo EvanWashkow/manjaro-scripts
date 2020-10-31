@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source $(dirname $0)/../../../Utilities/ExitOnNoPamac.sh
+source $(dirname $0)/../../Application/ExitOnNoPamac.sh
 
 pamac build --no-confirm systemd-boot-pacman-hook
 

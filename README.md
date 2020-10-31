@@ -6,7 +6,7 @@ Installation scripts for Arch Linux
     1. Run Distribution-specific scripts (`Distribution`)
         * This will provide a baseline for the later scripts
     2. Install Base (`System/Base/InstallBase.sh`)
-    3. Install Utilities (`Utilities/InstallUtilities.sh`)
+    3. Install System Applications (`System/Application/InstallApplications.sh`)
     4. Install Desktop of choice (`DesktopEnvironment`)
 2. Reboot
 3. Setup System (Part 1)
