@@ -1,7 +1,14 @@
 #!/bin/sh
 
 # Install common utilities
-sudo pacman -S --noconfirm base-devel fwupd git nano
+sudo pacman -S --noconfirm
+    base-devel \
+    bluez \
+    bluez-utils \
+    fwupd \
+    git \
+    nano \
+    ntfs-3g
 
 # Install Pamac
 cd ~

@@ -3,7 +3,6 @@
 sudo pacman -S --noconfirm \
     alsa-utils \
     baobab \
-    bluez-utils \
     chrome-gnome-shell \
     eog \
     file-roller \
@@ -40,9 +39,8 @@ sudo pacman -S --noconfirm --asdeps \
     gvfs-mtp \
     gvfs-nfs \
     gvfs-smb \
-    ntfs-3g \
     unrar
 
-sudo pacman -D --asdeps ntfs-3g
+sudo pacman -D --asdeps bluez ntfs-3g
 
 sudo systemctl enable gdm
