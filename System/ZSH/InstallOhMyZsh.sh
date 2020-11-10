@@ -5,12 +5,14 @@ sudo rm /etc/skel/.zshrc
 
 # Install OhMyZSH
 pamac build --no-confirm oh-my-zsh-git
+
+# Set up default ZSH config for new users
+sudo nano /etc/default/useradd
 sudo ln -s /usr/share/oh-my-zsh/zshrc /etc/skel/.zshrc
+
+# Set up ZSH config for current user
 rm ~/.zshrc
 cp /etc/skel/.zshrc ~
-
-# Edit the default user shell
-sudo nano /etc/default/useradd
 
 # Output message to restart browser
 echo "Please re-open your terminal"
