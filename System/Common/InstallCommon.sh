@@ -13,14 +13,3 @@ sudo pacman -S --noconfirm \
 # Set up Bluetooth
 sudo systemctl enable bluetooth.service
 sudo gpasswd -a $USER lp
-
-# Install Pamac
-cd ~
-git clone https://aur.archlinux.org/pamac-aur.git
-cd pamac-aur
-makepkg -sic --noconfirm
-cd ..
-rm -rdf pamac-aur
-
-# Install AUR utilities
-pamac build --no-confirm etc-update

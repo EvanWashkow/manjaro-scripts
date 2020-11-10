@@ -6,13 +6,14 @@ Installation scripts for Arch Linux
     1. Run Distribution-specific scripts (`Distribution`)
         * This will provide a baseline for the later scripts
     2. Install Base (`System/Base/InstallBase.sh`)
-    3. Install Common Packages (`System/Common/InstallCommon.sh`)
+    3. Install Common Official Packages (`System/Common/InstallCommon.sh`)
     4. Install Desktop of choice (`DesktopEnvironment`)
 2. Reboot
 3. Setup System (Part 1)
     1. Change Keymap (`System/Keymap`)
     2. Connect to internet
-    3. Install needed Pacman Hooks (`System/Pacman/Hook`)
+    3. Install Common AUR Packages from the AUR (`System/Common/InstallCommonAUR.sh`)
+    4. Install needed Pacman Hooks (`System/Pacman/Hook`)
 4. Reboot
 5. Setup System (Part 2)
     1. Set up Pacman Mirror Ranking (`System/Pacman/MirrorRanking`)
