@@ -46,9 +46,5 @@ sudo pacman -S --noconfirm --asdeps \
 # Mark some packages as being dependencies
 sudo pacman -D --asdeps bluez ntfs-3g
 
-# Install packages from the AUR
-pamac build --no-confirm switcheroo-control
-
 # Enable services
 sudo systemctl enable gdm
-sudo systemctl enable switcheroo-control
