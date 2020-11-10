@@ -13,9 +13,10 @@ Installation scripts for Arch Linux
 3. Setup System (Part 2)
     1. Change Keymap (`System/Keymap`)
     2. Connect to internet
-    3. Install AUR Common Packages (`System/Common/InstallCommonAUR.sh`)
-    4. Install AUR Desktop Packages (`DesktopEnvironment`)
-    5. Install needed Pacman Hooks (`System/Pacman/Hook`)
+    3. Setup the User (`User/SetupUser.sh`)
+    4. Install AUR Common Packages (`System/Common/InstallCommonAUR.sh`)
+    5. Install AUR Desktop Packages (`DesktopEnvironment`)
+    6. Install needed Pacman Hooks (`System/Pacman/Hook`)
 4. Reboot
 5. Setup System (Part 3)
     1. Set up Pacman Mirror Ranking (`System/Pacman/MirrorRanking`)

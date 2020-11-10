@@ -12,4 +12,3 @@ sudo pacman -S --noconfirm \
 
 # Set up Bluetooth
 sudo systemctl enable bluetooth.service
-sudo gpasswd -a $USER lp
