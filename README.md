@@ -7,11 +7,12 @@ Installation scripts for Arch Linux
 
 1. Setup System (Part 1)
     1. After initial install, `arch-chroot` into the machine
-    2. Run Distribution-specific scripts (`Distribution`)
+    2. Run `sudo pacman -Sy`
+    3. Run Distribution-specific scripts (`Distribution`)
         * This will provide a baseline for the later scripts
-    3. Install Base (`System/Base/InstallBase.sh`)
-    4. Install Official Common Packages (`System/Common/InstallCommon.sh`)
-    5. Install Official Desktop Packages (`DesktopEnvironment`)
+    4. Install Base (`System/Base/InstallBase.sh`)
+    5. Install Official Common Packages (`System/Common/InstallCommon.sh`)
+    6. Install Official Desktop Packages (`DesktopEnvironment`)
 2. Reboot
 
 ### As User...
