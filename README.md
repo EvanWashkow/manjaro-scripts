@@ -18,8 +18,8 @@ Installation scripts for Arch Linux
 ### As User...
 
 1. Setup System (Part 2)
-    1. Change Keymap (`System/Keymap`)
-    2. Connect to internet
+    1. Connect to internet
+    2. Change Keymap (`System/Keymap`)
     3. Setup the User (`User/SetupUser.sh`)
     4. Install AUR Common Packages (`System/Common/InstallCommonAUR.sh`)
     5. Install AUR Desktop Packages (`DesktopEnvironment`)
