@@ -31,6 +31,7 @@ Installation scripts for Arch Linux
     3. Optionally, update via `sudo pacman -Syu`
     4. Run `sudo etc-update`, resolving conflicts
     5. Setup Terminal Shell (`System`)
+    6. [Install video acceleration drivers](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation)
 4. Set up silent boot
     1. Edit mkinitcpio via `sudo nano /etc/mkinitcpio.conf`
         1. Replace "udev usr resume" with "systemd" in the HOOKS field ([source](https://wiki.archlinux.org/index.php/mkinitcpio#Common_hooks))
