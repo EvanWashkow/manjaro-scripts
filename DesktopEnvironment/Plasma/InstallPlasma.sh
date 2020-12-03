@@ -6,6 +6,8 @@ sudo pacman -S \
     kde-system-meta \
     kde-utilities-meta \
     plasma-meta
+    
+# @todo: Add cronie noto-fonts phonon-qt5-vlc ?
 
 # Install optional dependencies from main repos
 sudo pacman -S --noconfirm --asdeps \
