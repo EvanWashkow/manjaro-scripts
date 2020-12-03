@@ -7,7 +7,7 @@ sudo pacman -S \
     kde-utilities-meta \
     plasma-meta
     
-# @todo: Add cronie phonon-qt5-vlc ?
+# @todo: Add phonon-qt5-vlc ?
 
 # Install optional dependencies from main repos
 sudo pacman -S --noconfirm --asdeps \

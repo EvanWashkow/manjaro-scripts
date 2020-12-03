@@ -1,8 +1,7 @@
 #!/bin/sh
 
 # Install components
-sudo pacman -S --noconfirm cronie reflector
-sudo systemctl enable cronie
+sudo pacman -S --noconfirm reflector
 
 # Include shared variables
 source $(dirname $0)/Variables.sh
