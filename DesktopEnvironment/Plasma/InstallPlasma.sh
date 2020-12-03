@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install packages from main repos
-sudo pacman -S --noconfirm \
+sudo pacman -S \
     kde-network-meta \
     kde-system-meta \
     kde-utilities-meta \
