@@ -9,10 +9,15 @@ sudo pacman -S --noconfirm --asdeps \
 
 # Install packages from main repos
 sudo pacman -S \
-    kde-network-meta \
+
+    # Meta packages
+    kde-pim-meta \
     kde-system-meta \
     kde-utilities-meta \
-    plasma-meta
+    plasma-meta \
+    
+    # Individual packages
+    kdeconnect
 
 # Enable services
 sudo systemctl enable sddm
