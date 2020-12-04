@@ -11,7 +11,6 @@ sudo pacman -S --noconfirm --asdeps \
 sudo pacman -S \
 
     # Meta packages
-    kde-pim-meta \
     kde-system-meta \
     kde-utilities-meta \
     plasma-meta \
