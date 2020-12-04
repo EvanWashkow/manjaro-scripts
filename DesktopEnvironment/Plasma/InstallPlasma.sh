@@ -3,10 +3,10 @@
 # Install dependencies from main repos
 sudo pacman -S --noconfirm --asdeps \
     \
-    # Providers
+    # Providers \
     phonon-qt5-vlc \
     \
-    # Optional dependencies
+    # Optional dependencies \
     kde-gtk-config \
     packagekit-qt5 \
     pulseaudio-bluetooth \
@@ -15,12 +15,12 @@ sudo pacman -S --noconfirm --asdeps \
 # Install packages from main repos
 sudo pacman -S \
     \
-    # Meta packages
+    # Meta packages \
     kde-system-meta \
     kde-utilities-meta \
     plasma-meta \
     \
-    # Individual packages
+    # Individual packages \
     kdeconnect
 
 # Enable services
