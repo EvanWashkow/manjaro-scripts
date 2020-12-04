@@ -1,11 +1,16 @@
 #!/bin/sh
 
-# Install optional dependencies from main repos
+# Install dependencies from main repos
 sudo pacman -S --noconfirm --asdeps \
+    
+    # Providers
+    phonon-qt5-vlc \
+    
+    # Optional dependencies
     kde-gtk-config \
     packagekit-qt5 \
-    phonon-qt5-vlc \
-    pulseaudio-bluetooth
+    pulseaudio-bluetooth \
+    sshfs
 
 # Install packages from main repos
 sudo pacman -S \
