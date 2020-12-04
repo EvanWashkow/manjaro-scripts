@@ -2,10 +2,10 @@
 
 # Install dependencies from main repos
 sudo pacman -S --noconfirm --asdeps \
-    
+
     # Providers
     phonon-qt5-vlc \
-    
+
     # Optional dependencies
     kde-gtk-config \
     packagekit-qt5 \
