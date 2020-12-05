@@ -10,7 +10,7 @@ sudo pacman -S --noconfirm --asdeps \
     sshfs
 
 # Install packages from main repos
-sudo pacman -S \
+sudo pacman -S --noconfirm \
     kde-system-meta \
     kde-utilities-meta \
     plasma-meta \
