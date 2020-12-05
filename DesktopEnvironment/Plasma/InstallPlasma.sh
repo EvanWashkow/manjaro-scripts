@@ -3,6 +3,7 @@
 # Install dependencies from main repos
 sudo pacman -S --noconfirm --asdeps \
     kde-gtk-config \
+    kdepim-addons \
     packagekit-qt5 \
     phonon-qt5-vlc \
     pulseaudio-bluetooth \
