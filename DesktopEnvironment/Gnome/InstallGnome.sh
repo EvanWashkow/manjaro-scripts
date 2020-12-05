@@ -1,8 +1,10 @@
 #!/bin/sh
 
+# Install common desktop environment packages
+source $(dirname $0)/../Common/InstallCommon.sh
+
 # Install packages from main repos
 sudo pacman -S --noconfirm \
-    alsa-utils \
     baobab \
     chrome-gnome-shell \
     eog \
@@ -25,9 +27,7 @@ sudo pacman -S --noconfirm \
     gnome-weather \
     gvfs \
     nautilus \
-    totem \
-    xdg-user-dirs-gtk \
-    xdg-utils
+    totem
 
 # Install optional dependencies from main repos
 sudo pacman -S --noconfirm --asdeps \

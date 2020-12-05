@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Install common desktop environment packages
+source $(dirname $0)/../Common/InstallCommon.sh
+
 # Install dependencies from main repos
 sudo pacman -S --noconfirm --asdeps \
     kde-gtk-config \
@@ -15,8 +18,7 @@ sudo pacman -S --noconfirm \
     kde-utilities-meta \
     plasma-meta \
     kdeconnect \
-    korganizer \
-    xdg-user-dirs-gtk
+    korganizer
 
 # Enable services
 sudo systemctl enable sddm
