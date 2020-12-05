@@ -15,7 +15,8 @@ sudo pacman -S \
     kde-utilities-meta \
     plasma-meta \
     kdeconnect \
-    korganizer
+    korganizer \
+    xdg-user-dirs-gtk
 
 # Enable services
 sudo systemctl enable sddm
