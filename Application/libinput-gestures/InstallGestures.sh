@@ -8,3 +8,6 @@ sudo pacman -S --noconfirm --asdeps xdotool
 
 # https://github.com/bulletmark/libinput-gestures#installation
 sudo gpasswd -a $USER input
+
+# https://github.com/bulletmark/libinput-gestures#configuration
+libinput-gestures-setup autostart
