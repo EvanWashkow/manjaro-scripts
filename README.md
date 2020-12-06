@@ -13,6 +13,8 @@ Installation scripts for Arch Linux
     4. Install Base (`System/Base/InstallBase.sh`)
     5. Install Official Common Packages (`System/Common/InstallCommon.sh`)
     6. Install Official Desktop Packages (`DesktopEnvironment`)
+    7. [Install video acceleration drivers](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation)
+    8. [Install XOrg drivers](https://wiki.archlinux.org/index.php/xorg#Driver_installation)
 2. Reboot
 
 ### As User...
@@ -31,7 +33,6 @@ Installation scripts for Arch Linux
     3. Optionally, update via `sudo pacman -Syu`
     4. Run `sudo etc-update`, resolving conflicts
     5. Setup Terminal Shell (`System`)
-    6. [Install video acceleration drivers](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation)
 4. Set up silent boot
     1. Edit mkinitcpio via `sudo nano /etc/mkinitcpio.conf`
         1. Replace "udev usr resume" with "systemd" in the HOOKS field ([source](https://wiki.archlinux.org/index.php/mkinitcpio#Common_hooks))
