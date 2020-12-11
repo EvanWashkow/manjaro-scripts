@@ -43,8 +43,5 @@ sudo pacman -S --noconfirm --asdeps \
     gvfs-smb \
     unrar
 
-# Mark some packages as being dependencies
-sudo pacman -D --asdeps bluez ntfs-3g
-
 # Enable services
 sudo systemctl enable gdm
