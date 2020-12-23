@@ -1,8 +1,5 @@
 #!/bin/sh
 
-sudo pacman -S --noconfirm base
-
-
 #
 # Clean up: mark all base dependencies as such that may have been explicitly installed before
 #
@@ -13,3 +10,9 @@ sudo pacman -D --asdeps $baseDependencies
 
 # Mark Linux Firmware as being a dependency (of the kernel)
 sudo pacman -D --asdeps linux-firmware
+
+
+#
+# Install required packages
+#
+sudo pacman -S --noconfirm base
