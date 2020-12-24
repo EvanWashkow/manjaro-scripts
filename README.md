@@ -10,11 +10,10 @@ Installation scripts for Arch Linux
     2. Run `sudo pacman -Sy`
     3. Run Distribution-specific scripts (`Distribution`)
         * This will provide a baseline for the later scripts
-    4. Install Base (`System/Base/InstallBase.sh`)
-    5. Install Official Common Packages (`System/Common/InstallCommon.sh`)
-    6. Install Official Desktop Packages (`DesktopEnvironment`)
-    7. [Install video acceleration drivers](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation)
-    8. [Install XOrg drivers](https://wiki.archlinux.org/index.php/xorg#Driver_installation)
+    4. Install System (`System/InstallSystem.sh`)
+    5. Install Official Desktop Packages (`DesktopEnvironment`)
+    6. [Install video acceleration drivers](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation)
+    7. [Install XOrg drivers](https://wiki.archlinux.org/index.php/xorg#Driver_installation)
 2. Reboot
 
 ### As User...
