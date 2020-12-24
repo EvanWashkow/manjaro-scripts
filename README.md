@@ -28,7 +28,7 @@ Installation scripts for Arch Linux
     6. Install needed Pacman Hooks (`Pacman/Hook`)
 2. Reboot
 3. Setup System (Part 3)
-    1. Set up Pacman Mirror Ranking (`Pacman/MirrorRanking`)
+    1. Set up Pacman Mirror Ranking (`Pacman/MirrorRanking/Setup*.sh`)
     2. Rank Mirrors (`Pacman/MirrorRanking/RankMirrors.sh`)
     3. Optionally, update via `sudo pacman -Syu`
     4. Run `sudo etc-update`, resolving conflicts
