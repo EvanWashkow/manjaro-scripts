@@ -25,11 +25,11 @@ Installation scripts for Arch Linux
     3. Setup the User (`User/SetupUser.sh`)
     4. Install AUR Common Packages (`System/Common/InstallCommonAUR.sh`)
     5. Install AUR Desktop Packages (`DesktopEnvironment`)
-    6. Install needed Pacman Hooks (`System/Pacman/Hook`)
+    6. Install needed Pacman Hooks (`Pacman/Hook`)
 2. Reboot
 3. Setup System (Part 3)
-    1. Set up Pacman Mirror Ranking (`System/Pacman/MirrorRanking`)
-    2. Rank Mirrors (`System/Pacman/MirrorRanking/RankMirrors.sh`)
+    1. Set up Pacman Mirror Ranking (`Pacman/MirrorRanking`)
+    2. Rank Mirrors (`Pacman/MirrorRanking/RankMirrors.sh`)
     3. Optionally, update via `sudo pacman -Syu`
     4. Run `sudo etc-update`, resolving conflicts
     5. Setup Command-line Shell (`CommandLineShell`)
@@ -47,6 +47,6 @@ Installation scripts for Arch Linux
 6. Install Applications
     1. (`Application`)
     2. Any others
-7. Remove orphaned packages (`System/Pacman/RemoveOrphanedPackages.sh`)
+7. Remove orphaned packages (`Pacman/RemoveOrphanedPackages.sh`)
 8. Remove uninstalled package cache (Run `sudo pacman -Sc`)
 9. Reboot
