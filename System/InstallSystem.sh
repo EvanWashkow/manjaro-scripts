@@ -12,7 +12,18 @@ sudo pacman -D --asdeps $baseDependencies
 sudo pacman -D --asdeps linux-firmware
 
 
-#
-# Install required packages
-#
-sudo pacman -S --noconfirm base
+# Install common packages
+sudo pacman -S --noconfirm \
+    base \
+    base-devel \
+    bluez \
+    bluez-utils \
+    cronie \
+    fwupd \
+    git \
+    nano \
+    ntfs-3g
+
+# Enable system services
+sudo systemctl enable bluetooth.service
+sudo systemctl enable cronie.service
