@@ -1,5 +1,5 @@
-# Arch Scripts
-Installation scripts for Arch Linux
+# Manjaro Scripts
+Installation scripts for Manjaro Linux
 
 ## General execution order
 
