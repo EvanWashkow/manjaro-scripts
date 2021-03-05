@@ -8,12 +8,15 @@ Installation scripts for Arch Linux
 1. Setup System (Part 1)
     1. After initial install, `arch-chroot` into the machine
     2. Run `sudo pacman -Sy`
-    3. Run Distribution-specific scripts (`Distribution`)
+    3. `sudo pacman -S git`
+    4. Clone this repo to the `/root` directory
+    5. Run Distribution-specific scripts (`Distribution`)
         * This will provide a baseline for the later scripts
-    4. Install System (`System/InstallSystem.sh`)
-    5. Install Official Desktop Packages (`DesktopEnvironment`)
-    6. [Install video acceleration drivers](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation)
-    7. [Install XOrg drivers](https://wiki.archlinux.org/index.php/xorg#Driver_installation)
+    6. Install System (`System/InstallSystem.sh`)
+    7. Install Official Desktop Packages (`DesktopEnvironment`)
+    8. [Install video acceleration drivers](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation)
+    9. [Install XOrg drivers](https://wiki.archlinux.org/index.php/xorg#Driver_installation)
+    10. Delete this repo from the `/root` directory
 2. Reboot
 
 ### As User...
@@ -22,10 +25,11 @@ Installation scripts for Arch Linux
     1. Connect to internet
     2. Change keyboard layout
         * Change Keymap (`sudo localectl set-keymap dvorak`)
-    3. Setup the User (`User/SetupUser.sh`)
-    4. Install AUR Common Packages (`System/InstallSystemAUR.sh`)
-    5. Install AUR Desktop Packages (`DesktopEnvironment`)
-    6. Install needed Pacman Hooks (`Pacman/Hook`)
+    3. Clone this repo to the current user's home directory
+    4. Setup the User (`User/SetupUser.sh`)
+    5. Install AUR Common Packages (`System/InstallSystemAUR.sh`)
+    6. Install AUR Desktop Packages (`DesktopEnvironment`)
+    7. Install needed Pacman Hooks (`Pacman/Hook`)
 2. Reboot
 3. Setup System (Part 3)
     1. Set up Pacman Mirror Ranking (`Pacman/MirrorRanking/Setup*.sh`)
