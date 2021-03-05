@@ -12,7 +12,6 @@ sudo pacman -S \
     bluez-utils \
     cronie \
     fwupd \
-    git \
     nano \
     ntfs-3g \
     pamac-gtk
