@@ -4,7 +4,6 @@
 # Clean up: mark all base dependencies as such that may have been explicitly installed before
 #
 
-
 # Install common packages
 sudo pacman -S \
     base \
