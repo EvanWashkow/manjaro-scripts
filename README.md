@@ -22,28 +22,11 @@ Installation scripts for Manjaro Linux
     3. Setup the User (`User/SetupUser.sh`)
     4. Install AUR Common Packages (`System/InstallSystemAUR.sh`)
     5. Install AUR Desktop Packages (`DesktopEnvironment`)
-    6. Install needed Pacman Hooks (`Pacman/Hook`)
+    6. Setup Command-line Shell (`CommandLineShell`)
 2. Reboot
-3. Setup System (Part 3)
-    1. Set up Pacman Mirror Ranking (`Pacman/MirrorRanking/Setup*.sh`)
-    2. Rank Mirrors (`Pacman/MirrorRanking/RankMirrors.sh`)
-    3. Optionally, update via `sudo pacman -Syu`
-    4. Run `sudo etc-update`, resolving conflicts
-    5. Setup Command-line Shell (`CommandLineShell`)
-4. Set up silent boot
-    1. Edit mkinitcpio via `sudo nano /etc/mkinitcpio.conf`
-        1. Replace "udev usr resume" with "systemd" in the HOOKS field ([source](https://wiki.archlinux.org/index.php/mkinitcpio#Common_hooks))
-        2. Run `sudo mkinitcpio -P`
-    2. Modify bootloader
-        1. Add these boot parameters: https://wiki.archlinux.org/index.php/silent_boot#Kernel_parameters
-        2. Change timeout to zero
-        3. Rebuild bootloader
-        4. Bootloader info:
-            1. Grub: https://wiki.archlinux.org/index.php/GRUB#Generated_grub.cfg
-5. Reboot
-6. Install Applications
+3. Install Applications
     1. (`Application`)
     2. Any others
-7. Remove orphaned packages (`Pacman/RemoveOrphanedPackages.sh`)
-8. Remove uninstalled package cache (Run `sudo pacman -Sc`)
-9. Reboot
+4. Remove orphaned packages (`Pacman/RemoveOrphanedPackages.sh`)
+5. Remove uninstalled package cache (Run `sudo pacman -Sc`)
+6. Reboot
