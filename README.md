@@ -8,12 +8,10 @@ Installation scripts for Manjaro Linux
 1. Setup System (Part 1)
     1. After initial install, `arch-chroot` into the machine
     2. Run `sudo pacman -Sy`
-    3. Run Distribution-specific scripts (`Distribution`)
-        * This will provide a baseline for the later scripts
-    4. Install System (`System/InstallSystem.sh`)
-    5. Install Official Desktop Packages (`DesktopEnvironment`)
-    6. [Install video acceleration drivers](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation)
-    7. [Install XOrg drivers](https://wiki.archlinux.org/index.php/xorg#Driver_installation)
+    3. Install System (`System/InstallSystem.sh`)
+    4. Install Official Desktop Packages (`DesktopEnvironment`)
+    5. [Install video acceleration drivers](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation)
+    6. [Install XOrg drivers](https://wiki.archlinux.org/index.php/xorg#Driver_installation)
 2. Reboot
 
 ### As User...
