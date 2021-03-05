@@ -27,6 +27,6 @@ Installation scripts for Manjaro Linux
 3. Install Applications
     1. (`Application`)
     2. Any others
-4. Remove orphaned packages (`Pacman/RemoveOrphanedPackages.sh`)
+4. Remove orphaned packages
 5. Remove uninstalled package cache (Run `sudo pacman -Sc`)
 6. Reboot
