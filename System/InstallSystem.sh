@@ -21,7 +21,6 @@ sudo pacman -S --noconfirm \
     cronie \
     fwupd \
     git \
-    manjaro-settings-manager \
     nano \
     ntfs-3g \
     pamac
