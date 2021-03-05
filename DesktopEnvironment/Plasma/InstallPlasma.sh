@@ -17,8 +17,7 @@ sudo pacman -S --noconfirm \
     kde-system-meta \
     kde-utilities-meta \
     plasma-meta \
-    kdeconnect \
-    korganizer
+    kdeconnect
 
 # Enable services
 sudo systemctl enable sddm
