@@ -6,10 +6,9 @@ Installation scripts for Manjaro Linux
 ### As Root...
 
 1. Setup System (Part 1)
-    1. Install extra components (when prompted)
-        * `git`
-    2. Clone this repo to the `/root` directory
-    3. After initial install, `chroot` into the machine
+    1. After initial install, `chroot` into the machine
+    2. `sudo pacman -S git`
+    3. Clone this repo to the `/root` directory
     4. Install System (`System/InstallSystem.sh`)
     5. Install Official Desktop Packages (`DesktopEnvironment`)
     6. [Install video acceleration drivers](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation)
