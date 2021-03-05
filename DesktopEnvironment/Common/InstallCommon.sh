@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install packages from main repos
-sudo pacman -S --noconfirm \
+sudo pacman -S \
     alsa-utils \
     manjaro-settings-manager \
     noto-fonts \
@@ -9,6 +9,6 @@ sudo pacman -S --noconfirm \
     xdg-utils
 
 # Install optional dependencies
-sudo pacman -S --noconfirm --asdeps \
+sudo pacman -S --asdeps \
     noto-fonts-cjk \
     noto-fonts-emoji
