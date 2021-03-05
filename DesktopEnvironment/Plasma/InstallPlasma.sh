@@ -17,7 +17,8 @@ sudo pacman -S --noconfirm \
     kde-system-meta \
     kde-utilities-meta \
     plasma-meta \
-    kdeconnect
+    kdeconnect \
+    manjaro-settings-manager-kcm
 
 # Enable services
 sudo systemctl enable sddm
