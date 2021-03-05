@@ -4,7 +4,7 @@
 source $(dirname $0)/../Common/InstallCommon.sh
 
 # Install dependencies from main repos
-sudo pacman -S --noconfirm --asdeps \
+sudo pacman -S --asdeps \
     kde-gtk-config \
     kdepim-addons \
     packagekit-qt5 \
@@ -13,7 +13,7 @@ sudo pacman -S --noconfirm --asdeps \
     sshfs
 
 # Install packages from main repos
-sudo pacman -S --noconfirm \
+sudo pacman -S \
     kde-system-meta \
     kde-utilities-meta \
     plasma-meta \

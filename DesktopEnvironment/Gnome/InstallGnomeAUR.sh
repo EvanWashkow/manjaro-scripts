@@ -1,5 +1,5 @@
 #!/bin/sh
 
 # Install Switcheroo Control from the AUR
-pamac build --no-confirm switcheroo-control
+pamac build switcheroo-control
 sudo systemctl enable switcheroo-control

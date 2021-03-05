@@ -4,7 +4,7 @@
 source $(dirname $0)/../Common/InstallCommon.sh
 
 # Install packages from main repos
-sudo pacman -S --noconfirm \
+sudo pacman -S \
     baobab \
     chrome-gnome-shell \
     eog \
@@ -30,7 +30,7 @@ sudo pacman -S --noconfirm \
     totem
 
 # Install optional dependencies from main repos
-sudo pacman -S --noconfirm --asdeps \
+sudo pacman -S --asdeps \
     gnome-control-center \
     gst-plugins-ugly \
     gst-libav \
