@@ -23,7 +23,7 @@ sudo pacman -S --noconfirm \
     git \
     nano \
     ntfs-3g \
-    pamac
+    pamac-gtk
 
 # Enable system services
 sudo systemctl enable bluetooth.service
