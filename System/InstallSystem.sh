@@ -13,7 +13,7 @@ sudo pacman -D --asdeps linux-firmware
 
 
 # Install common packages
-sudo pacman -S --noconfirm \
+sudo pacman -S \
     base \
     base-devel \
     bluez \
