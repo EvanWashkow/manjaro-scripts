@@ -6,11 +6,15 @@ Installation scripts for Manjaro Linux
 ### As Root...
 
 1. Setup System (Part 1)
-    1. After initial install, `chroot` into the machine
-    2. Install System (`System/InstallSystem.sh`)
-    3. Install Official Desktop Packages (`DesktopEnvironment`)
-    4. [Install video acceleration drivers](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation)
-    5. [Install XOrg drivers](https://wiki.archlinux.org/index.php/xorg#Driver_installation)
+    1. Install extra components (when prompted)
+        * `git`
+    2. Clone this repo to the `/root` directory
+    3. After initial install, `chroot` into the machine
+    4. Install System (`System/InstallSystem.sh`)
+    5. Install Official Desktop Packages (`DesktopEnvironment`)
+    6. [Install video acceleration drivers](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation)
+    7. [Install XOrg drivers](https://wiki.archlinux.org/index.php/xorg#Driver_installation)
+    8. Delete this repo from the `/root` directory
 2. Reboot
 
 ### As User...
@@ -19,10 +23,11 @@ Installation scripts for Manjaro Linux
     1. Connect to internet
     2. Change keyboard layout
         * Change Keymap (`sudo localectl set-keymap dvorak`)
-    3. Setup the User (`User/SetupUser.sh`)
-    4. Install AUR Common Packages (`System/InstallSystemAUR.sh`)
-    5. Install AUR Desktop Packages (`DesktopEnvironment`)
-    6. Setup Command-line Shell (`CommandLineShell`)
+    3. Clone this repo to the current user's home directory
+    4. Setup the User (`User/SetupUser.sh`)
+    5. Install AUR Common Packages (`System/InstallSystemAUR.sh`)
+    6. Install AUR Desktop Packages (`DesktopEnvironment`)
+    7. Setup Command-line Shell (`CommandLineShell`)
 2. Reboot
 3. Install Applications
     1. (`Application`)
