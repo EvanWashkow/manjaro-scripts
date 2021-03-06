@@ -25,3 +25,4 @@ sudo pacman -D --asdeps linux-firmware
 # Enable system services
 sudo systemctl enable bluetooth.service
 sudo systemctl enable cronie.service
+sudo systemctl enable dhcpcd.service
