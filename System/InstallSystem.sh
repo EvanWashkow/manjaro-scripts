@@ -13,6 +13,7 @@ sudo pacman -S \
     cronie \
     fwupd \
     nano \
+    networkmanager \
     ntfs-3g \
     pamac-gtk
 
@@ -27,3 +28,4 @@ sudo pacman -D --asdeps linux-firmware
 sudo systemctl enable bluetooth.service
 sudo systemctl enable cronie.service
 sudo systemctl enable dhcpcd.service
+sudo systemctl enable NetworkManager.service
