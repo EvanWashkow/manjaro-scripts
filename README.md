@@ -22,7 +22,7 @@ Installation scripts for Arch Linux
 ### As User...
 
 1. Setup System (Part 2)
-    1. Connect to internet
+    1. Connect to the internet
     2. Change keyboard layout
         * Change Keymap (`sudo localectl set-keymap dvorak`)
     3. Clone this repo to the current user's home directory
