@@ -27,10 +27,9 @@ Installation scripts for Manjaro Linux
     5. Install AUR Common Packages (`System/InstallSystemAUR.sh`)
     6. Install AUR Desktop Packages (`DesktopEnvironment`)
     7. Setup Command-line Shell (`CommandLineShell`)
-2. Reboot
-3. Install Applications
+2. Install Applications
     1. (`Application`)
     2. Any others
-4. Remove orphaned packages
-5. Remove uninstalled package cache (Run `sudo pacman -Sc`)
-6. Reboot
+3. Remove orphaned packages
+4. Remove uninstalled package cache (Run `sudo pacman -Sc`)
+5. Reboot
