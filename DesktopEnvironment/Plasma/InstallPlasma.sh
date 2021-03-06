@@ -9,7 +9,8 @@ sudo pacman -S \
     kde-utilities-meta \
     plasma-meta \
     kdeconnect \
-    manjaro-settings-manager-kcm
+    manjaro-settings-manager-kcm \
+    plasma-wayland-session
 
 # Install dependencies from main repos
 sudo pacman -S --asdeps \
