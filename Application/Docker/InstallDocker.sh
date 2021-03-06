@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo pacman -S --noconfirm docker docker-compose
+sudo pacman -S docker docker-compose
 sudo systemctl enable docker.service
 sudo gpasswd -a $USER docker
 
