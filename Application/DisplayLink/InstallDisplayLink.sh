@@ -1,4 +1,4 @@
 #!/bin/sh
 
-pamac build --no-confirm displaylink
+pamac build displaylink
 sudo systemctl enable displaylink.service
