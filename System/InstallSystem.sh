@@ -13,6 +13,7 @@ sudo pacman -S \
     cronie \
     fwupd \
     nano \
+    networkmanager \
     ntfs-3g
 
 # https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#Getting_the_dependencies_list_of_several_packages
@@ -26,3 +27,4 @@ sudo pacman -D --asdeps linux-firmware
 sudo systemctl enable bluetooth.service
 sudo systemctl enable cronie.service
 sudo systemctl enable dhcpcd.service
+sudo systemctl enable NetworkManager.service
