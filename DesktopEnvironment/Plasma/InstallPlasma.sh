@@ -10,6 +10,7 @@ sudo pacman -S \
     plasma-meta \
     kdeconnect \
     manjaro-settings-manager-kcm \
+    pamac-tray-icon-plasma \
     plasma-wayland-session
 
 # Install dependencies from main repos
