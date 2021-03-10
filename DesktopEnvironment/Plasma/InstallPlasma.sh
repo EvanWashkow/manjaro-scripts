@@ -9,7 +9,8 @@ sudo pacman -S \
     kde-utilities-meta \
     plasma-meta \
     kdeconnect \
-    plasma-wayland-session
+    plasma-wayland-session \
+    spectacle
 
 # Install dependencies from main repos
 sudo pacman -S --asdeps \
