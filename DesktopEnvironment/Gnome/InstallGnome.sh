@@ -15,11 +15,12 @@ sudo pacman -S \
     gnome-calculator \
     gnome-calendar \
     gnome-contacts \
-    gnome-firmware \
     gnome-logs \
     gnome-keyring \
     gnome-screenshot \
     gnome-shell-extensions \
+    gnome-software \
+    gnome-software-packagekit-plugin \
     gnome-system-monitor \
     gnome-terminal \
     gnome-tweaks \
