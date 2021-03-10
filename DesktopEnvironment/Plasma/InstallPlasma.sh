@@ -11,7 +11,8 @@ sudo pacman -S \
     kdeconnect \
     manjaro-settings-manager-kcm \
     pamac-tray-icon-plasma \
-    plasma-wayland-session
+    plasma-wayland-session \
+    spectacle
 
 # Install dependencies from main repos
 sudo pacman -S --asdeps \
