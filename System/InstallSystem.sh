@@ -12,6 +12,8 @@ sudo pacman -S \
     bluez-utils \
     cronie \
     fwupd \
+    manjaro-alsa \
+    manjaro-pulse \
     nano \
     networkmanager \
     ntfs-3g \
