@@ -9,7 +9,6 @@ sudo pacman -S \
     base \
     base-devel \
     bluez \
-    bluez-utils \
     cronie \
     fwupd \
     nano \
