@@ -15,8 +15,7 @@ sudo pacman -S \
 # Install dependencies from main repos
 sudo pacman -S --asdeps \
     kde-gtk-config \
-    packagekit-qt5 \
-    pulseaudio-bluetooth
+    packagekit-qt5
 
 # Enable services
 sudo systemctl enable sddm

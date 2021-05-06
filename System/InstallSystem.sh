@@ -21,7 +21,9 @@ baseDependencies=$(pacman -Qi base | awk -F'[:<=>]' '/^Depends/ {print $2}')
 sudo pacman -D --asdeps $baseDependencies
 
 # Mark Linux Firmware as being a dependency (of the kernel)
-sudo pacman -D --asdeps linux-firmware
+sudo pacman -D --asdeps
+    linux-firmware \
+    pulseaudio-bluetooth
 
 # Enable system services
 sudo systemctl enable bluetooth.service
