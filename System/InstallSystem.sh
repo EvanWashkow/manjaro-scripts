@@ -24,7 +24,8 @@ sudo pacman -D --asdeps $baseDependencies
 sudo pacman -D --asdeps
     linux-firmware \
     pulseaudio-alsa \
-    pulseaudio-bluetooth
+    pulseaudio-bluetooth \
+    pulseaudio-jack
 
 # Enable system services
 sudo systemctl enable bluetooth.service
