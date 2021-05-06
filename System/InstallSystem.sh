@@ -13,7 +13,8 @@ sudo pacman -S \
     fwupd \
     nano \
     networkmanager \
-    ntfs-3g
+    ntfs-3g \
+    pulseaudio
 
 # https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#Getting_the_dependencies_list_of_several_packages
 baseDependencies=$(pacman -Qi base | awk -F'[:<=>]' '/^Depends/ {print $2}')
@@ -22,6 +23,7 @@ sudo pacman -D --asdeps $baseDependencies
 # Mark Linux Firmware as being a dependency (of the kernel)
 sudo pacman -D --asdeps
     linux-firmware \
+    pulseaudio-alsa \
     pulseaudio-bluetooth
 
 # Enable system services
