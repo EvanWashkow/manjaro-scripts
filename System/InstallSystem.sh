@@ -21,7 +21,7 @@ baseDependencies=$(pacman -Qi base | awk -F'[:<=>]' '/^Depends/ {print $2}')
 sudo pacman -D --asdeps $baseDependencies
 
 # Mark Linux Firmware as being a dependency (of the kernel)
-sudo pacman -D --asdeps
+sudo pacman -D --asdeps \
     linux-firmware \
     pulseaudio-alsa \
     pulseaudio-bluetooth \
