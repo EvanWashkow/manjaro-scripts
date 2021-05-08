@@ -6,7 +6,6 @@ source $(dirname $0)/../Common/InstallCommon.sh
 # Install packages from main repos
 sudo pacman -S \
     baobab \
-    chrome-gnome-shell \
     eog \
     file-roller \
     gdm \
