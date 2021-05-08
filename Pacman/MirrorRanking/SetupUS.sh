@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install components
-sudo pacman -S --noconfirm reflector
+sudo pacman -S reflector
 
 # Include shared variables
 source $(dirname $0)/Variables.sh
