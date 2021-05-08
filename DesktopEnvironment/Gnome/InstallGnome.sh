@@ -14,6 +14,7 @@ sudo pacman -S \
     gnome-calculator \
     gnome-calendar \
     gnome-contacts \
+    gnome-extensions \
     gnome-logs \
     gnome-keyring \
     gnome-screenshot \
