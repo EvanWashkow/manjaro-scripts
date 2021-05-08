@@ -34,3 +34,5 @@ sudo systemctl enable bluetooth.service
 sudo systemctl enable cronie.service
 sudo systemctl enable dhcpcd.service
 sudo systemctl enable NetworkManager.service
+sudo systemctl --user enable pipewire.service
+sudo systemctl --user enable pipewire-media-session.service
