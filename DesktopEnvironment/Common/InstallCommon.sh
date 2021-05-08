@@ -2,7 +2,6 @@
 
 # Install packages from main repos
 sudo pacman -S \
-    alsa-utils \
     noto-fonts \
     xdg-user-dirs-gtk \
     xdg-utils
