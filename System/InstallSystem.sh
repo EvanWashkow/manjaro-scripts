@@ -16,13 +16,9 @@ sudo pacman -S \
     nano \
     networkmanager \
     ntfs-3g \
-    pipewire \
     pulseaudio
 
 sudo pacman -S \
-    pipewire-alsa \
-    pipewire-jack \
-    pipewire-pulse \
     pulseaudio-alsa \
     pulseaudio-bluetooth \
     pulseaudio-jack
