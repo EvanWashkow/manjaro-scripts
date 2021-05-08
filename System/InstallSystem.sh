@@ -10,6 +10,7 @@ sudo pacman -S \
     base-devel \
     bluez \
     cronie \
+    dhcpcd \
     fwupd \
     nano \
     networkmanager \
