@@ -1,4 +1,4 @@
 #!/bin/sh
 
 # Install AUR utilities
-pamac build --no-confirm etc-update
+pamac build etc-update
