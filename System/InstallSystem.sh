@@ -6,7 +6,6 @@
 
 # Install common packages
 sudo pacman -S \
-    alsa-utils \
     base \
     base-devel \
     bluez \
