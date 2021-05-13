@@ -12,18 +12,11 @@ sudo pacman -S \
     cronie \
     dhcpcd \
     fwupd \
-    manjaro-alsa \
-    manjaro-pulse \
+    manjaro-pipewire \
     nano \
     networkmanager \
     ntfs-3g \
-    pamac-gtk \
-    pipewire
-
-sudo pacman -S \
-    pipewire-alsa \
-    pipewire-jack \
-    pipewire-pulse
+    pamac-gtk
 
 # https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#Getting_the_dependencies_list_of_several_packages
 baseDependencies=$(pacman -Qi base | awk -F'[:<=>]' '/^Depends/ {print $2}')
