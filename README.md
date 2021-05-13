@@ -37,11 +37,12 @@ Installation scripts for Arch Linux
     3. Optionally, update via `sudo pacman -Syu`
     4. Run `sudo etc-update`, resolving conflicts
     5. Setup Command-line Shell (`CommandLineShell`)
-4. Set up silent boot
-    1. Edit mkinitcpio via `sudo nano /etc/mkinitcpio.conf`
-        1. Replace "udev usr resume" with "systemd" in the HOOKS field ([source](https://wiki.archlinux.org/index.php/mkinitcpio#Common_hooks))
-        2. Run `sudo mkinitcpio -P`
-    2. Modify bootloader
+4. Modify Bootloader
+    1. Replace udev with systemd
+        1. `sudo nano /etc/mkinitcpio.conf`
+        2. Replace "udev usr resume" with "systemd" in the HOOKS field ([source](https://wiki.archlinux.org/index.php/mkinitcpio#Common_hooks))
+        3. Run `sudo mkinitcpio -P`
+    2. Set up silent boot
         1. Add these boot parameters: https://wiki.archlinux.org/index.php/silent_boot#Kernel_parameters
         2. Change timeout to zero
         3. Rebuild bootloader
