@@ -17,7 +17,13 @@ sudo pacman -S \
     nano \
     networkmanager \
     ntfs-3g \
-    pamac-gtk
+    pamac-gtk \
+    pipewire
+
+sudo pacman -S \
+    pipewire-alsa \
+    pipewire-jack \
+    pipewire-pulse
 
 # https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#Getting_the_dependencies_list_of_several_packages
 baseDependencies=$(pacman -Qi base | awk -F'[:<=>]' '/^Depends/ {print $2}')
