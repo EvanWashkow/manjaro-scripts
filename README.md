@@ -48,7 +48,6 @@ Installation scripts for Arch Linux
         1. Add these boot parameters: https://wiki.archlinux.org/index.php/silent_boot#Kernel_parameters
         2. Change timeout to zero
         3. Rebuild bootloader
-        4. Bootloader info:
             1. Grub: https://wiki.archlinux.org/index.php/GRUB#Generated_grub.cfg
 5. Reboot
 6. Install Applications
