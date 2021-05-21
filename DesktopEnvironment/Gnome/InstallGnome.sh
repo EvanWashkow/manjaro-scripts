@@ -3,30 +3,11 @@
 # Install common desktop environment packages
 source $(dirname $0)/../Common/InstallCommon.sh
 
+# Get package variables
+source $(dirname $0)/PackageVariables.sh
+
 # Install packages from main repos
-sudo pacman -S \
-    baobab \
-    eog \
-    file-roller \
-    gdm \
-    gedit \
-    gnome-backgrounds \
-    gnome-calculator \
-    gnome-calendar \
-    gnome-contacts \
-    gnome-logs \
-    gnome-keyring \
-    gnome-screenshot \
-    gnome-shell-extensions \
-    gnome-software \
-    gnome-software-packagekit-plugin \
-    gnome-system-monitor \
-    gnome-terminal \
-    gnome-tweaks \
-    gnome-weather \
-    gvfs \
-    nautilus \
-    totem
+sudo pacman -S $mainPackages
 
 # Install optional dependencies from main repos
 sudo pacman -S --asdeps \
