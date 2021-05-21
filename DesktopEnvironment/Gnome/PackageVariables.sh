@@ -22,3 +22,15 @@ mainPackages="baobab \
     gvfs \
     nautilus \
     totem"
+
+optionalPackages="gnome-control-center \
+    gst-plugins-ugly \
+    gst-libav \
+    gvfs-afc \
+    gvfs-goa \
+    gvfs-google \
+    gvfs-gphoto2 \
+    gvfs-mtp \
+    gvfs-nfs \
+    gvfs-smb \
+    unrar"
