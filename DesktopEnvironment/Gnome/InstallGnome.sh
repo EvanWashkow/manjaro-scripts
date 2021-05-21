@@ -7,7 +7,7 @@ source $(dirname $0)/../Common/InstallCommon.sh
 source $(dirname $0)/PackageVariables.sh
 
 # Install packages from main repos
-sudo pacman -S $mainPackages
+sudo pacman -S $requiredPackages
 
 # Install optional dependencies from main repos
 sudo pacman -S --asdeps $optionalPackages

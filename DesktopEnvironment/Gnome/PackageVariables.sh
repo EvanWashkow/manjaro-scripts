@@ -1,6 +1,6 @@
 #!/bin/sh
 
-mainPackages="baobab \
+requiredPackages="baobab \
     eog \
     file-roller \
     gdm \
