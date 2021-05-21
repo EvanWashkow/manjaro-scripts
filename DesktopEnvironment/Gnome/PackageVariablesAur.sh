@@ -1,4 +1,5 @@
 #!/bin/sh
 
-requiredPackages="chrome-gnome-shell \
+requiredPackages="\
+    chrome-gnome-shell \
     switcheroo-control"

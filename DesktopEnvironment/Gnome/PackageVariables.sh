@@ -1,6 +1,7 @@
 #!/bin/sh
 
-requiredPackages="baobab \
+requiredPackages="\
+    baobab \
     eog \
     file-roller \
     gdm \
@@ -23,7 +24,8 @@ requiredPackages="baobab \
     nautilus \
     totem"
 
-optionalPackages="gnome-control-center \
+optionalPackages="\
+    gnome-control-center \
     gst-plugins-ugly \
     gst-libav \
     gvfs-afc \
