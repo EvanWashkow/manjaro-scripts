@@ -3,19 +3,14 @@
 # Install common desktop environment packages
 source $(dirname $0)/../Common/InstallCommon.sh
 
+# Package variables
+source $(dirname $0)/PackageVariables.sh
+
 # Install packages from main repos
-sudo pacman -S \
-    kde-system-meta \
-    kde-utilities-meta \
-    plasma-meta \
-    kdeconnect \
-    plasma-wayland-session \
-    spectacle
+sudo pacman -S $requiredPackages
 
 # Install dependencies from main repos
-sudo pacman -S --asdeps \
-    kde-gtk-config \
-    packagekit-qt5
+sudo pacman -S --asdeps $optionalPackages
 
 # Enable services
 sudo systemctl enable sddm
