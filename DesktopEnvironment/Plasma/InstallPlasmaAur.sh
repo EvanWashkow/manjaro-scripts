@@ -1,4 +1,4 @@
 #!/bin/sh
 
-# Install Pamac indicator
-pamac build pamac-tray-icon-plasma
+source $(dirname $0)/PackageVariablesAur.sh
+pamac build $requiredPackages
