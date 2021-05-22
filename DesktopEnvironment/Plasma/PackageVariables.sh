@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# Install packages from main repos
 requiredPackages="\
     kde-system-meta \
     kde-utilities-meta \
@@ -9,7 +8,6 @@ requiredPackages="\
     plasma-wayland-session \
     spectacle"
 
-# Install dependencies from main repos
 optionalPackages="\
     kde-gtk-config \
     packagekit-qt5"
