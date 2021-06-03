@@ -12,8 +12,7 @@ sudo pacman -S \
     cronie \
     dhcpcd \
     fwupd \
-    manjaro-alsa \
-    manjaro-pulse \
+    manjaro-pipewire \
     nano \
     networkmanager \
     ntfs-3g \
