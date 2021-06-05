@@ -24,8 +24,7 @@ sudo pacman -D --asdeps $baseDependencies
 
 # Mark Linux Firmware as being a dependency (of the kernel)
 sudo pacman -D --asdeps
-    linux-firmware \
-    pulseaudio-bluetooth
+    linux-firmware
 
 # Enable system services
 sudo systemctl enable bluetooth.service
