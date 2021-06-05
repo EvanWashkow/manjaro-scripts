@@ -2,6 +2,7 @@
 
 requiredPackages="\
     baobab \
+    chrome-gnome-shell \
     eog \
     file-roller \
     gdm \
